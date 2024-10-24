@@ -5,9 +5,9 @@ function CONVERTEMOEDA(valorReais, converter, moeda) {
 
 
 function pegaValores() {
-    let reais = parseFloat(prompt("Informe o valor em reais:"));
-    let cotacao = parseFloat(prompt("Informe o valor de cotação:"));
-    let moeda = prompt("Informe a moeda de destino:");
+    let reais = parseFloat(prompt("Insira o valor em reais:"));
+    let cotacao = parseFloat(prompt("Insira o valor de cotação:"));
+    let moeda = prompt("Insira a moeda:");
 
     CONVERTEMOEDA(reais, cotacao, moeda);
 }
